@@ -1,0 +1,14 @@
+# Model configuration and thresholds
+
+forecast:
+  model: prophet           # options: prophet, xgboost
+  forecast_horizon: 168    # hours (1 week)
+  confidence_interval: 0.95
+
+anomaly_detection:
+  method: isolation_forest  # options: zscore, isolation_forest
+  contamination: 0.01
+
+mitigation:
+  cpu_threshold: 85         # % CPU usage to trigger mitigation
+  scale_step: 50            # VMs to scale by per action
