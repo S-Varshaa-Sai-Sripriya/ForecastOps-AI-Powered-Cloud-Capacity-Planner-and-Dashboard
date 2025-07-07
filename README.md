@@ -40,6 +40,33 @@ This system is modular, scalable, and testable — structured to support CI/CD a
 | **🧠 Designed for Cloud**   | Simulates Azure/AWS/GCP region capacity monitoring & predictive scaling   |
 
 ---
+🗂️ Folder-Level Overview:
+
+📁 notebooks/ (🔐 PRIVATE, not included in public repo except EDA)
+    - Exploratory and visual analysis of simulated capacity data.
+    - Includes model evaluation outputs, anomaly visualizations, and high-level experiment tracking.
+    - Core ML algorithms are abstracted out — only results and workflows are shown.
+
+📁 dashboard/pages/ 
+    - Streamlit multi-page UI components: Forecast visualizer, anomaly dashboard, region drill-down, etc.
+    - Safe to share — logic is presentation-focused only.
+
+📁 src/ (🔐 PRIVATE, not included in public repo)
+    - Contains forecasting algorithms (Prophet, XGBoost), anomaly detection logic (Z-score, Isolation Forest),
+      mitigation strategies, auto-retraining simulations, and SHAP explainability logic.
+    - Protected to preserve project IP.
+
+📁 data/
+    - Includes only a simulated CSV dataset (capacity usage) with timestamps and regions.
+    - No real-world or client data is shared.
+
+📁 .github/
+    - Contains GitHub Actions for CI (e.g., linting, testing) — useful for showcasing engineering rigor.
+
+> Complete code is maintained in a private repository. Contact: - [Form](https://forms.gle/4he63uTbjhTcTU5t5) for connect and more details
+---
+
+
 
 🔍 Inference Flow
 
