@@ -1,0 +1,5 @@
+Files stored in this folder are:
+
+  1. forecast
+  2. anomalies
+  3. region_drilldown
