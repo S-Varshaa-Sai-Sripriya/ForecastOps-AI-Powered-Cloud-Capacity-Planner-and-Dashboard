@@ -21,9 +21,9 @@ This system is modular, scalable, and testable — structured to support CI/CD a
 
 📁 Designed for:
 
-    - **Modularity**: Each component isolated and reusable.
-    - **Maintainability**: Simple addition of new regions, models, or logic.
-    - **Version control & testing**: Ideal for collaboration and CI workflows.
+    - Modularity: Each component isolated and reusable.
+    - Maintainability: Simple addition of new regions, models, or logic.
+    - Version control & testing: Ideal for collaboration and CI workflows.
 
 ---
 
