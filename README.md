@@ -137,8 +137,10 @@ XGBoost RMSE: 3.87
 
 ---
 
-The core proprietary logic, feature engineering pipelines, and production deployment scripts are maintained in a private environment.
-
 ![5](https://github.com/user-attachments/assets/c3024cf6-2c41-472a-8ce7-070cb4e26a00)
 
-![6](https://github.com/user-attachments/assets/ca006d21-cce2-44d2-80ec-7383d3dcaccf)!
+![6](https://github.com/user-attachments/assets/ca006d21-cce2-44d2-80ec-7383d3dcaccf)
+
+
+
+The core proprietary logic, feature engineering pipelines, and production deployment scripts are maintained in a private environment.
