@@ -62,8 +62,6 @@ This system is modular, scalable, and testable — structured to support CI/CD a
 
 📁 .github/
     - Contains GitHub Actions for CI (e.g., linting, testing) — useful for showcasing engineering rigor.
-
-> Complete code is maintained in a private repository. Contact: - [Form](https://forms.gle/4he63uTbjhTcTU5t5) for connect and more details
 ---
 
 
@@ -135,6 +133,11 @@ XGBoost RMSE: 3.87
 
 
 ![4](https://github.com/user-attachments/assets/7b7f4107-06b1-43f0-a976-61c47332af72)
+
+
+---
+
+The core proprietary logic, feature engineering pipelines, and production deployment scripts are maintained in a private environment.
 
 ![5](https://github.com/user-attachments/assets/c3024cf6-2c41-472a-8ce7-070cb4e26a00)
 
